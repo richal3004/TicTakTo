@@ -18,18 +18,19 @@ ol, ul {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background:/* #c8fdff*/#fddf91;
+  border: 3px solid/* #045474*/ #f8a60e;
   float: left;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
+  color: rgb(37, 37, 37);
 }
 
 .square:focus {
@@ -47,4 +48,29 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.move-list-item-selected{
+  float: left;
+  font-weight: bold;
+  font-size: medium;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffad14;
+}
+
+.square.highlight {
+  background: #ddd;
+}
+
+.list-button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(37, 37, 37);
+}
+.coming-up-player{
+  /* color: #ffad14; */
+  font-size:large;
 }
